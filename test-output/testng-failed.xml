@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.eisoo.anysharetest.FullFuctionTest">
+        <methods>
+          <include name="j4_wifiBackup"/>
+          <include name="h3_setOffTest"/>
+          <include name="beforeMethod"/>
+          <include name="d_openAudio"/>
+          <include name="f_addcomm_diffChar"/>
+          <include name="c_delFile"/>
+          <include name="k_thumbnail_View"/>
+          <include name="m_shareWeibo"/>
+          <include name="afterMethod"/>
+          <include name="z_loginDomainTest"/>
+          <include name="i_setbTraditionalHome"/>
+          <include name="b_downldAllFile"/>
+          <include name="m_closeExlink"/>
+          <include name="a_uploadContinueVideo"/>
+          <include name="d_openExcel"/>
+          <include name="e_copyFileSingle"/>
+          <include name="e_moveFile"/>
+          <include name="l_cancelLink"/>
+          <include name="b1_downldNoWifi"/>
+          <include name="h2_unlockTest"/>
+          <include name="beforeClass"/>
+          <include name="e_copyAllFiles"/>
+          <include name="e_copyFile"/>
+          <include name="i_setaTraditional"/>
+          <include name="afterClass"/>
+          <include name="a_uploadNoPermission"/>
+          <include name="j1_checkdefaultUI"/>
+          <include name="l_openLink"/>
+          <include name="n3_checkdel"/>
+          <include name="b_downldMultiFile"/>
+          <include name="a_uploadAudio"/>
+          <include name="a_uploadFile"/>
+          <include name="f_delcommt"/>
+          <include name="i_setaEn"/>
+          <include name="b2_downldNoPermisison"/>
+          <include name="f_addcomm_inlimit"/>
+          <include name="i_setbCh"/>
+          <include name="a_uploadVideo"/>
+          <include name="e_moveAllFiles"/>
+          <include name="m_shareWechat"/>
+          <include name="c_searchAlldir"/>
+          <include name="f_replycommt"/>
+          <include name="d_openVideo"/>
+          <include name="e_moveFiles"/>
+          <include name="b_downldManyFile"/>
+          <include name="k_timeOrder"/>
+          <include name="c_searchExlink"/>
+          <include name="j2_startBackup"/>
+          <include name="j3_pauseBackup"/>
+          <include name="d_openFile"/>
+          <include name="h1_setOnTest"/>
+          <include name="n1_addOne"/>
+          <include name="d_openPic"/>
+          <include name="e_copyFiles"/>
+          <include name="c_asearchInlink"/>
+          <include name="m_shareEmail"/>
+          <include name="j5_chooseDest"/>
+          <include name="b2_downldWaitWfi"/>
+          <include name="a_uploadTakePhoto"/>
+          <include name="b_downldAFile"/>
+          <include name="a_uploadMulVideo"/>
+          <include name="j6_stopBackup"/>
+          <include name="m_copyExlink"/>
+          <include name="i_setcChHome"/>
+          <include name="a_uploadWaitWifi"/>
+          <include name="h2_modifyTest"/>
+          <include name="n1_checkAdd"/>
+          <include name="c_delFiles"/>
+          <include name="g_unmarkAnyFile"/>
+          <include name="f_addcomm_overlimit"/>
+          <include name="a_uploadPauseVideo"/>
+          <include name="a_uploadNoWifi"/>
+          <include name="m_shareMMS"/>
+          <include name="l_znolink"/>
+          <include name="m_shareQQ"/>
+          <include name="c_searchKws"/>
+          <include name="n2_delOne"/>
+          <include name="i_setbEnHome"/>
+          <include name="c_renameFile"/>
+          <include name="g_markAnyFile"/>
+          <include name="e_moveFileSingle"/>
+          <include name="n4_share"/>
+          <include name="a_uploadPics"/>
+        </methods>
+      </class> <!-- com.eisoo.anysharetest.FullFuctionTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
