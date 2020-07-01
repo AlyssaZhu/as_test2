@@ -86,7 +86,7 @@ public class FullFuctionTest extends Functions {
 	  	  clearUploadList();  
 	  }
 
-	  @Test //2017-12-15
+	  @Test 
 	  public void a_uploadWaitWifi() throws Exception
 	  {   System.out.println("CaseId"+(++caseId)+":"+Thread.currentThread().getStackTrace()[1].getMethodName());
 	  	  switchWifi(0);
@@ -98,7 +98,7 @@ public class FullFuctionTest extends Functions {
 	  	  switchWifi(1);
 	  }
 
-	  @Test //2017-12-17
+	  @Test 
 	  public void a_uploadNoWifi() throws Exception
 	  {   System.out.println("CaseId"+(++caseId)+":"+Thread.currentThread().getStackTrace()[1].getMethodName());
 	      switchWifi(1);
@@ -154,7 +154,7 @@ public class FullFuctionTest extends Functions {
 	  	//  clearUploadList();
 	  }
 	  
-	  //20180525
+	 
 	   @Test
 	  public void a_pauseAll() throws Exception
 	  {
@@ -541,7 +541,7 @@ public class FullFuctionTest extends Functions {
 		public void h3_setOffTest() throws Exception
 		{	System.out.println("CaseId"+(++caseId)+":"+Thread.currentThread().getStackTrace()[1].getMethodName());
 			setOff();
-			killAS();//20180529
+			killAS();
 		}
 		//语言
 		
@@ -862,7 +862,7 @@ public class FullFuctionTest extends Functions {
 		 	  enterDest("共享");
 		 	  manageFile(0,"外链分享");
 		 	  assertTrue(manExlink("复制外链"),"未完成复制外链");  
-		 	  killAS(); //20180529
+		 	  killAS(); 
 		   }
 		  
 		   @Test
